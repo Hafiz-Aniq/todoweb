@@ -167,17 +167,31 @@ input {
     background: transparent;
     padding: 10px;
 }
-
 button {
     border: none;
     outline: none;
-    padding: 16px 50px;
     background: #ff5945;
     color: #fff;
     font-size: 16px;
     cursor: pointer;
     border-radius: 40px;
 }
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+    button {
+        padding: 12px 30px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    button {
+        padding: 10px 20px;
+        font-size: 12px;
+    }
+}
+
 
 ul li {
     list-style: none;
